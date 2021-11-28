@@ -1,0 +1,14 @@
+{
+  "name": "josaaproject",
+  "version": "1.0.0",
+  "description": "Utility to fetch data from official website of JoSAA",
+  "main": "json_to_excel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prince Singh",
+  "license": "ISC",
+  "dependencies": {
+    "xlsx": "^0.17.4"
+  }
+}
