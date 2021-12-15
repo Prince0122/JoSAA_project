@@ -1,14 +1,38 @@
 {
-  "name": "josaaproject",
+  "name": "orcr",
   "version": "1.0.0",
-  "description": "Utility to fetch data from official website of JoSAA",
-  "main": "json_to_excel.js",
+  "description": "Utility to fetch data from josaa/csab website",
+  "main": "console.js",
+  "dependencies": {
+    "cfb": "^1.2.1",
+    "adler-32": "^1.2.0",
+    "frac": "^1.1.2",
+    "codepage": "^1.15.0",
+    "crc-32": "^1.2.0",
+    "exit-on-epipe": "^1.0.1",
+    "printj": "^1.1.2",
+    "ssf": "^0.11.2",
+    "word": "^0.3.0",
+    "wmf": "^1.0.2",
+    "xlsx": "^0.17.4"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TsarPrince/JoSAA_project.git#main"
+  },
+  "keywords": [
+    "JoSAA",
+    "CSAB",
+    "xlsx"
+  ],
   "author": "Prince Singh",
-  "license": "ISC",
-  "dependencies": {
-    "xlsx": "^0.17.4"
-  }
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TsarPrince/JoSAA_project/issues"
+  },
+  "homepage": "https://github.com/TsarPrince/JoSAA_project/tree/main#readme"
 }
